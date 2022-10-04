@@ -1,0 +1,48 @@
+/*
+   New Perspectives on HTML and CSS
+   Final Project
+
+   Videos Style Sheet
+   Author: Astra Berry	
+   Date:   5/27/16
+
+   Filename:         merchandise.css
+   Supporting Files: 
+
+*/
+
+/* Navigation Styles */
+
+nav a {
+    text-decoration: none;
+    }
+
+ul {
+    list-style-type: circle;
+    text-align: center;
+    }
+	
+li {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 51, 153);
+    display: inline;
+    padding: 20px;
+ 	   
+    }
+
+/* Body styles */
+
+body {
+    background-color: rgb(240, 128, 128);
+}
+
+body.h1 {
+    text-align: justify;
+}
+
+/* Form styles */
+
+form {
+    position: relative;
+    text-align: center;
+}

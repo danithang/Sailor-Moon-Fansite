@@ -1,0 +1,64 @@
+/*
+   New Perspectives on HTML and CSS
+   Final Project
+
+   Videos Style Sheet
+   Author: Astra Berry	
+   Date:   5/27/16
+
+   Filename:         survey.css
+   Supporting Files: sailormoon home pic.jpg
+
+*/
+
+/* Navigation Styles */
+
+nav a {
+    text-decoration: none;
+    }
+
+ul {
+    list-style-type: circle;
+    text-align: center;
+    }
+	
+li {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 51, 153);
+    display: inline;
+    padding: 20px;
+ 	   
+    }
+
+/* Body Styles */
+
+body {
+    background-image: url("sailormoon home pic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 20px;
+} 
+
+section {
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.8);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+
+    -o-background-size: 50%;
+    -moz-background-size: 50%;
+    -webkit-background-size: 50%;
+    background-size: 50%;
+
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+
+    clear: center;
+    float: center;
+    height: 45%;
+    margin-left: 15%;
+    width: 70%;
+}
